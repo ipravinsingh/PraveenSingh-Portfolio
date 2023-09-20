@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+}
+
+#container {
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    font-size: 18pt;
+    text-align: left;
+    user-select: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.word {
+    color: rgb(12, 11, 11);
+    line-height: 2.5rem;
+    font-size: 18pt;
+    position: absolute;
+    margin-top: 1.75em;
+    font-weight: 500;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
